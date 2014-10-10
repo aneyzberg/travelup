@@ -10,7 +10,7 @@ group :development do
 end
 
 group :production do
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.9'
 end
 
 # Use SCSS for stylesheets
